@@ -1,0 +1,31 @@
+1. what is file system.
+	-to store data, retrieve data, arrange data, remove data.
+	File system is an area which is provided by any environment to manage the data 
+	in the form of files. eg: Files/Directory.
+
+2. what is HDFS.
+	- focused on storage part of data in efficient and reliable way.
+	- stores the data in the form of data blocks having size 128MB.
+	- it support fault tolerance with the help of replication factor.
+	- streaming access to file system data.
+	- write once read any number of time.
+
+3. what is diff btw data block and split.
+	storage				computing
+	HDFS				YARN
+	block				split
+
+4. what is commodity hardware.
+	- low cost compared to RDBMS servers.
+	- its a server with less capacity. 
+
+5. what is namenode.
+	- its the masternode of hdfs, it maintains the info of all datanode in metadata bin file,
+	the slave datanode sends heartbeat signal for every 3 sec(reconfigurable) that its alive.
+
+X. what is heartbeat.
+	-Heartbeats in HDFS are the signals that are sent by DataNodes to the NameNode to indicate 
+	that it is functioning properly (alive). By default, the heartbeat interval is 3 seconds, 
+	which can be configured using dfs.heartbeat.interval in hdfs-site.xml.
+
+6. what is checkpoint.	
