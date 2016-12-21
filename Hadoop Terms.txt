@@ -28,4 +28,19 @@ X. what is heartbeat.
 	that it is functioning properly (alive). By default, the heartbeat interval is 3 seconds, 
 	which can be configured using dfs.heartbeat.interval in hdfs-site.xml.
 
-6. what is checkpoint.	
+6. what is checkpoint.
+
+7. explain rack awareness.
+	node- any commodity h/w which is used to store the data.
+	rack-  it is collection of 30-40 node which is connected via hdfs
+	- fault tolerance and high availabilty of data, performance. one of the replica should be in diff node out of
+	all replicas. and no more than 2 replica in same rack
+
+8. explain the replication process.
+
+9. what happens when a new block is created.
+	first replica will be placed on the local node. second replica will be placed on the next local node, third 
+	replica will be placed in next local rack.
+	
+	
+	
