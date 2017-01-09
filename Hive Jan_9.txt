@@ -1,0 +1,10 @@
+
+Hive - HQL
+
+SQL Assets
+Sqoop for importing data from RDBMS to hdfs/ Hive Tables
+Hive has an internal database Derby to store structure of each table - metastore
+
+Hive  = Hadoop distributed strength + SQL time
+Hadoop  - Distributed storage and distributed and parallel processing
+SQL     - Less development time
