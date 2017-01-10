@@ -1,0 +1,20 @@
+
+Hive - HQL
+
+SQL Assets
+Sqoop for importing data from RDBMS to hdfs/ Hive Tables
+Hive has an internal database Derby to store structure of each table - metastore
+
+Hive  = Hadoop distributed strength + SQL time
+Hadoop  - Distributed storage and distributed and parallel processing
+SQL     - Less development time
+
+hive managed tables(default)
+
+to store hive result to file: INSERT OVERWRITE DIRECTORY '/path' row format delimited fields terminated by ','
+query:
+
+1, to find total customer for each profession
+	key: profession, value: total count
+
+ 
